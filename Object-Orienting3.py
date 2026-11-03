@@ -13,3 +13,4 @@ def create_object():
 print("Calling create object")
 obj = create_object
 print("Program end")
+print()
