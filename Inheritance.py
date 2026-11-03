@@ -41,3 +41,5 @@ class dog(Animal):
         print("Dog Barks")
 
 Dog = dog()
+Dog.bark()
+Dog.eat()
