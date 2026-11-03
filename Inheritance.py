@@ -25,3 +25,19 @@ child.favourite_hobby("playing with dolls")
 issubclass(Kid, Family_Member)  # Returns True
 
 #Assignment:
+#Animal class
+#Eat method print animal eats food
+#dog child class
+#Bark method print dog bark
+#Dog object call dog
+
+class Animal:
+    def eat(self):
+        print("Animal eats food.")
+
+class dog(Animal):
+    def bark(self):
+        super().eat()
+        print("Dog Barks")
+
+Dog = dog()
