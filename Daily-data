@@ -17,8 +17,6 @@ daily_text.print_message()
 class HelperSession:
     def __init__(self):
         print("Daily Data Helper session created")
- 
-    # Destructor runs when the object is deleted
     def __del__(self):
         print("Daily Data Helper session ended") 
  
