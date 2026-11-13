@@ -9,6 +9,6 @@ class IOString:
     def print_str(self):
         print("Result is", self.str1.upper())
 
-str1 = IOString()
-str1.get_str()
+str1 = IOString()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+str1.get_str()               
 str1.print_str()
